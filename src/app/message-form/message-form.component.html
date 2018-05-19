@@ -1,0 +1,21 @@
+<form [formGroup]="form">
+  <div class="form-row">
+    <label for="sender">Sender</label>
+    <input type="text" formControlName="sender">
+  </div>
+  <div class="form-row">
+    <label for="content">Content</label>
+    <textarea formControlName="content"></textarea>
+  </div>
+  <div class="form-row">
+    <label for="link">Link</label>
+    <input type="text" formControlName="link">
+  </div>
+  <div class="form-row">
+    <label for="image">Image</label>
+    <input type="text" formControlName="image">
+  </div>
+  <div class="form-buttons">
+    <button type="submit" [disabled]="form.invalid" (click)="onAddMessage()">Send Dupa!</button>
+  </div>
+</form>
