@@ -4,15 +4,15 @@
 
 export const environment = {
   production: false,
-    config: {
-        apiKey: "AIzaSyBe4IvZGLXx0Xx8BwBAA_7aqSMGvdEhfV8",
-        authDomain: "dupa1234-e5da6.firebaseapp.com",
-        databaseURL: "https://dupa1234-e5da6.firebaseio.com",
-        projectId: "dupa1234-e5da6",
-        storageBucket: "dupa1234-e5da6.appspot.com",
-        messagingSenderId: "229402748471"
-    }
-};
+  config: {
+    apiKey: 'AIzaSyBe4IvZGLXx0Xx8BwBAA_7aqSMGvdEhfV8',
+    authDomain: 'dupa1234-e5da6.firebaseapp.com',
+    databaseURL: 'https://dupa1234-e5da6.firebaseio.com',
+    projectId: 'dupa1234-e5da6',
+    storageBucket: 'dupa1234-e5da6.appspot.com',
+    messagingSenderId: '229402748471'
+  }
+}
 
 /*
  * In development mode, to ignore zone related error stack frames such as
